@@ -8,34 +8,34 @@ d = "Clube do Remo"
 print("imprimindo var:", d)
 
 if a == b:
- print("True")
+    print("True")
 elif a != b:
- print("Encadeado")
+    print("Encadeado")
 else:
- print("False")
+    print("False")
 
 #estrutura de repeticao
 for i in d:
- print(i)
+    print(i)
 
 #estrutura de repeticao
 for i in range(1,10):
- print(i)
+    print(i)
 
 #lista
 lista = [1,2,3,4,5,6]
 print(lista)
 
 for index, elemento in enumerate(lista):
- print(index, ":", elemento)
+    print(index, ":", elemento)
 
 #funcoes
 def soma(x, y):
- result = x + y
- return result
+    result = x + y
+    return result
 
 def imprimir_relatorio(relatorio):
- print("relatorio :", relatorio)
+    print("relatorio :", relatorio)
 
 r = soma(5,5)
 imprimir_relatorio(r)
