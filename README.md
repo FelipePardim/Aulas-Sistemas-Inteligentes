@@ -63,7 +63,7 @@ Este projeto esta sob a [Licença](https://github.com/FelipePardim/Aulas-Sistema
 
 <!-- Sobre mim e autores -->
 <h2 id="autor">
-    👨🏽‍💻 Author:
+    👨🏽‍💻 Autor:
     <div>
         <a href="https://github.com/FelipePardim" margin="10px">
             <img src="https://img.shields.io/badge/GitHub-FelipePardim-6f42c1?logo=github"/>
@@ -72,14 +72,10 @@ Este projeto esta sob a [Licença](https://github.com/FelipePardim/Aulas-Sistema
             <img src="https://img.shields.io/badge/LinkedIn-Felipe%20Pardim-blue?logo=linkedin"/>
         </a>
     </div>
-  
-<!--     👨🏽‍💻 Teacher:
+    👨🏽‍💻 Professor:
     <div>
-        <a href="https://github.com/FelipePardim" margin="10px">
-            <img src="https://img.shields.io/badge/GitHub-FelipePardim-6f42c1?logo=github"/>
+        <a href="https://github.com/fcarlosmonteiro" margin="10px">
+            <img src="https://img.shields.io/badge/GitHub-Francisco%20Carlos%20Souza-6f42c1?logo=github"/>
         </a>
-        <a alt="Felipe Pardim" href="https://www.linkedin.com/in/felipe-pardim">
-            <img src="https://img.shields.io/badge/LinkedIn-Felipe%20Pardim-blue?logo=linkedin"/>
-        </a>
-    </div> -->
+    </div>
 </h2>
