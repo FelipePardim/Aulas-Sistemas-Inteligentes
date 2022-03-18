@@ -19,33 +19,36 @@ R: Na busca local as vizinhanças são as soluções que estão próximas a solu
 de busca do problema analisado. 
 
 5. Quais são as principais maneiras de se representar uma solução em algoritmos de busca?
-R: 
+R: As soluções podem ser representadas por conjuntos de dados como vetores, matrizes, ou dados 
+abstratos modelados previamente.
 
 6. Descreva o motivo pelo qual uma busca fica estagnada em um platô.
 R: A busca fica estagnada devido a sua implementação impedi-la de "descer" em um vale porque 
-essa descida trazer resultados piores dos que os obtidos no platô em que ela se encontra
+essa descida trazer resultados piores dos que os obtidos no platô em que ela se encontra.
 
 7. Descreva estratégias para uma algoritmo sair de máximos ou mínimos locais.
 R: Aumentar o tamanho em qual ele pode buscar soluções, rodar o agoritmo diversas 
-vezes e dessas iterações obter o melhor resultado
+vezes e dessas iterações obter o melhor resultado.
 
 8. O que são funções objetivos?
-R: 
+R: São as funções que qualificaram/quantificaram as soluções encontradas.
 
 9. Suponha que um gerente de futebol gostaria de criar uma função para quantificar o número de
 gols de 1 atacante em 10 jogos. Crie uma função para quantificar o seguinte problema.
 R: f = E i=1 i=10 NºGols
 
 10. Qual a importância de uma função objetivo em algoritmos de busca?
-R: 
+R: Uma função objetivo bem feita e implementada corretamente será o que possibilitará que o
+algoritmo encontre uma solução boa ou ótima e a função objetivo será o que analisará o quão
+boa é cada solução que o algoritmo encontrou.
 
 11. Cite vantagens e desvantagens de busca local.
 R: Fácil implementação e manutenção, algoritmos relativamente rápidos.
-Facilidade de cair em platôs e não trazer uma solução ótima.
+Facilidade de cair em platôs e máximos locais e não trazer uma solução ótima.
 
 12. Explique o funcionamento do algoritmo Subida da Encosta em formato de
 fluxograma.
-R: 
+R: 12.pg
 
 13. Suponha dado um conjunto de objetos, cada um com um certo peso e um certo valor. Quais dos
 objetos devo colocar na minha mochila para que o valor total seja o maior possível? Minha mochila
@@ -60,14 +63,38 @@ d) Defina um critério de parada
 
 14. Explique o funcionamento do algoritmo Busca Tabu por meio de um pseudo-algoritmo.
 R: 
+    f-verificar-condicao(){
+      start(solucao-inicial)
+      if(true){
+        return solucao
+      }else{
+        f-expandir-vizinhanca()
+        f-avaliar-solucoes()
+        f-selecionar-melhor-solucao(){
+          f-salvar-melhor-solucao()
+        }
+      }
+    }
 
 15. Explique a importância e a deficiência de se utilizar lista tabu.
-R: 
+R: A busca tabu impede que o algoritmo encontre soluções ruins através da sua lista (memória)
+porém essa característica pode ser também um problema para a execução do algoritmo, sem contar
+que a sua lista pode creser muito, o que ocupará muito espaço na memória da máquina e diminuirá
+muito a eficiência do algoritmo, elevando sua complexidade proporcionalmente de acordo com o 
+tamanho da lista.
 
 16. O problema das oito rainhas é o problema lógico em que se coloca oito rainhas em um tabuleiro
 de xadrez de dimensão 8x8, de forma que nenhuma delas seja atacada por outra. Ilustre uma
 vizinhança de soluções para o problema das 8 Rainhas.
-R: 
+R: [["R",1,2,3,4,5,6,7],
+    [0,1,"R",3,4,5,6,7],
+    [0,1,2,3,"R",5,6,7],
+    [0,1,2,3,4,5,6,"R"],
+    [0,"R",2,3,4,5,6,7],
+    [0,1,2,3,4,5,"R",7],
+    [0,1,2,3,4,"R",6,7],
+    [0,1,2,"R",4,5,6,7]]
 
 17. Explique e exemplifique dois critérios de parada utilizado em algoritmos de busca
-R: 
+R: Caso encontrada a solução ótima ou o algoritmo estacione em um local com uma boa solução, 
+ou algum critério de parada definido pelo desenvolvedor seja atingido.
