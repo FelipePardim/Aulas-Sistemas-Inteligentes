@@ -1,0 +1,73 @@
+
+Lista busca local – Sistemas inteligentes aplicados
+
+1. O que são algoritmos de busca e para que tipo de problemas eles são aplicados.
+R: Os algoritmos de busca são algortimos que visam encontrar uma  ou várias soluções para um 
+dado problema, Os problemas aplicados são muito custosos ou muito complexos para serem
+modelados utilizando técnicas de programação convencional
+
+2. Defina espaço de busca.
+R: O espaço de busca é universo de possibilidade que o algoritmo possui para encontrar
+uma solução
+
+3. O que são soluções candidatas
+R: As soluções candidatas são as soluções que o algoritmo encontrou, sendo essas soluoções 
+ruins, boas, ou ótimas
+
+4. O que são vizinhanças no contexto de busca local?
+R: Na busca local as vizinhanças são as soluções que estão próximas a solução atual no espaço
+de busca do problema analisado. 
+
+5. Quais são as principais maneiras de se representar uma solução em algoritmos de busca?
+R: 
+
+6. Descreva o motivo pelo qual uma busca fica estagnada em um platô.
+R: A busca fica estagnada devido a sua implementação impedi-la de "descer" em um vale porque 
+essa descida trazer resultados piores dos que os obtidos no platô em que ela se encontra
+
+7. Descreva estratégias para uma algoritmo sair de máximos ou mínimos locais.
+R: Aumentar o tamanho em qual ele pode buscar soluções, rodar o agoritmo diversas 
+vezes e dessas iterações obter o melhor resultado
+
+8. O que são funções objetivos?
+R: 
+
+9. Suponha que um gerente de futebol gostaria de criar uma função para quantificar o número de
+gols de 1 atacante em 10 jogos. Crie uma função para quantificar o seguinte problema.
+R: f = E i=1 i=10 NºGols
+
+10. Qual a importância de uma função objetivo em algoritmos de busca?
+R: 
+
+11. Cite vantagens e desvantagens de busca local.
+R: Fácil implementação e manutenção, algoritmos relativamente rápidos.
+Facilidade de cair em platôs e não trazer uma solução ótima.
+
+12. Explique o funcionamento do algoritmo Subida da Encosta em formato de
+fluxograma.
+R: 
+
+13. Suponha dado um conjunto de objetos, cada um com um certo peso e um certo valor. Quais dos
+objetos devo colocar na minha mochila para que o valor total seja o maior possível? Minha mochila
+tem capacidade de apenas 15 kg.
+O problema da mochila consiste em, dada uma mochila de capacidade C e n itens cujos peso pi e
+valor de utilidade vi são dados, escolher quais itens serão alocados na mochila sem ultrapassar o
+peso máximo. Modele o problema da mochila utilizando Subida da Encosta.
+a) Representação das soluções
+b) Estratégia para expansão da vizinhança
+c) Função objetivo
+d) Defina um critério de parada
+
+14. Explique o funcionamento do algoritmo Busca Tabu por meio de um pseudo-algoritmo.
+R: 
+
+15. Explique a importância e a deficiência de se utilizar lista tabu.
+R: 
+
+16. O problema das oito rainhas é o problema lógico em que se coloca oito rainhas em um tabuleiro
+de xadrez de dimensão 8x8, de forma que nenhuma delas seja atacada por outra. Ilustre uma
+vizinhança de soluções para o problema das 8 Rainhas.
+R: 
+
+17. Explique e exemplifique dois critérios de parada utilizado em algoritmos de busca
+R: 
