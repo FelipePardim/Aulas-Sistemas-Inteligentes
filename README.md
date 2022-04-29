@@ -1,5 +1,6 @@
 # Aulas de Sistemas Inteligentes Aplicados
 ## Repositório das aulas de Sistemas Inteligentes Aplicados, 1º Semestre de 2022
+## Bach. Engenharia de Software - [UTFPR DV](https://github.com/utfpr-dv)
 
 <p align="center">
     <!-- Badge de estrelas do projeto -->
